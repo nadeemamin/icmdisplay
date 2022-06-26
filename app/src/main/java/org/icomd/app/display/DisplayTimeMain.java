@@ -27,7 +27,7 @@ import java.util.Locale;
 
 public class DisplayTimeMain extends AppCompatActivity {
 
-    static Boolean DEV_MODE=true;
+    static Boolean DEV_MODE=false;
 
     static long REFRESH_INTERVEL = 5 * 60 * 1000;
     static float SCREEN_SIZE = 48;
