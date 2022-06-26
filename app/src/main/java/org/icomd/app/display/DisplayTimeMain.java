@@ -307,10 +307,11 @@ public class DisplayTimeMain extends AppCompatActivity {
             createCell(spacesize, row, Boolean.FALSE);
             createCell("Starts", row, Boolean.TRUE);
             table.addView(row);
+            Log.e("Jummah  Main","Jummah on "+data.jummahList.size());
             for (int i = 0; i < data.jummahList.size(); i++) {
                 try {
                     JummahPrayer item = data.getJummahList().get(i);
-                    Log.e("Start create Main","Jummah on "+i);
+                    Log.e("Jummah ","Jummah on "+i);
                     String location = item.getLocation();
                     String khatib = item.getKhatib();
                     if(khatib.length()>15){
